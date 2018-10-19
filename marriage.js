@@ -17,8 +17,8 @@ GitHub: https://github.com/giacomopc/the-marriage
 
 // Colors
 
-var FemaleColor = rgba(244, 94, 184, 1.0)
-var MaleColor = rgba(62, 83, 240, 1.0)
+var FemaleColor = rgba(0, 255, 0, 1.0)
+var MaleColor = rgba(255, 0, 0, 1.0)
 
 var Blue = rgba(86, 131, 178, 1.0)
 var Purple = rgba(147, 52, 199, 1.0)
@@ -687,8 +687,8 @@ function drawSplash(alpha)
 	var titlePosition = vector2(400, 255)
 	var creditsPosition = vector2(mScreen.width - 22, mScreen.height - 27)
 	
-	drawText('The marriage', titlePosition, 25, 'center', textColor)
-	drawText('Rod Humble 2006', creditsPosition, 12,  'right', textColor)
+	drawText('The Holiday', titlePosition, 25, 'center', textColor)
+	drawText('Rod Humble 2006' jiarui Xu, creditsPosition, 12,  'right', textColor)
 
 }
 
